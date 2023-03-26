@@ -1,0 +1,68 @@
+quiz
+
+1. What does the `.map()` array method do?
+# It maps our through our data(array) and returns a new array that we want in the same index.
+# .map() method takes a function as its parameter
+# Returns a new array. Whatever gets returned from the call back function
+# provided is placed at the same index in the new array.
+# usually we take the items from the original array and modify them in some way.
+
+
+2. What do we usually use `.map` for in React?
+# To get the data we need for our app from a an array or an object beacuse usually most data is inform of objects
+# Helps us convert an array of raw data into an array of jsx elemants that can be displayed on the page
+
+3. Why is using `.map()` better than just creating the components
+manually by typing them out?
+# creating components manually is kinda dry, take for instance in an e-commerce website, if a customer purchases an item.
+# It makes sense to have a sytem that automatically updates the list of items by itself by just inputing data other than updating each simngle item manually.
+# Makes our code more cleaner and reusable/ more "self-sustaining" - not requirring additional changes whenever the data changes.
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <Joke
+punchline="It's hard to explain puns to kleptomaniacs because they always take things literally"
+isPun={true}
+upvote={10}
+downvote={2}
+comments={[{author: "", body: "", title: ""}]}
+/>
+<Joke
+setup=" I got my daughter a fridge for her birthday?"
+punchline="I can't wait to see her face light up when she opens it."
+isPun={false}
+
+/>
+<Joke
+setup=" How did the hacker escape the police?"
+punchline="He just ransomware."
+isPun={true}
+
+/>
+<Joke
+setup=" Why don't pirates travel on mountain roads?"
+punchline="Scurvy."
+isPun={true}
+
+/>
+<Joke
+setup=" Why do bees stay in the hive in winter?"
+punchline="Swarm."
+isPun={true}
+
+/>
+<Joke
+setup=" Whats the best thing about Switzerland?"
+punchline="I don't know, but the flag is a big plus!"
+isPun={false}
+
+/> */}
